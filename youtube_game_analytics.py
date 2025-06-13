@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 
 # --- 1. CONFIG ---
-API_KEY = "AIzaSyBj1oBM7VG7pPrbEtJn604DULz7AiDoaTY"  # 👈 Replace with your real key
+API_KEY = "YourAPIKEY"  # 👈 Replace with your real key
 GAME_TITLE = "Red Dead Redemption 2"              # 👈 Change to test other games
 MAX_RESULTS = 20
 
