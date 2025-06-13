@@ -4,8 +4,8 @@ import pandas as pd
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta, timezone
 
-YOUTUBE_API_KEY = "AIzaSyBj1oBM7VG7pPrbEtJn604DULz7AiDoaTY"
-youtube = build("youtube", "v3", developerKey="AIzaSyBj1oBM7VG7pPrbEtJn604DULz7AiDoaTY")
+YOUTUBE_API_KEY = "YourAPIKEY"
+youtube = build("youtube", "v3", developerKey="YourAPIKEY")
 
 games = [
     "Apex Legends",
